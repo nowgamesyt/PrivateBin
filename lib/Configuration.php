@@ -39,7 +39,7 @@ class Configuration
             'name'                     => 'PrivateBin',
             'basepath'                 => '',
             'discussion'               => true,
-            'opendiscussion'           => false,
+            'opendiscussion'           => true,
             'password'                 => true,
             'fileupload'               => false,
             'burnafterreadingselected' => false,
