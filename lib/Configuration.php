@@ -36,10 +36,10 @@ class Configuration
      */
     private static $_defaults = array(
         'main' => array(
-            'name'                     => 'PrivateBin',
+            'name'                     => 'MyBin',
             'basepath'                 => '',
-            'discussion'               => true,
-            'opendiscussion'           => true,
+            'discussion'               => false,
+            'opendiscussion'           => false,
             'password'                 => true,
             'fileupload'               => false,
             'burnafterreadingselected' => false,
@@ -47,7 +47,7 @@ class Configuration
             'syntaxhighlightingtheme'  => null,
             'sizelimit'                => 10485760,
             'template'                 => 'bootstrap',
-            'info'                     => 'More information on the <a href=\'https://privatebin.info/\'>project page</a>.',
+            'info'                     => 'More information on the <a href=\'https://mybin.wa-msg.com/\'>project page</a>.',
             'notice'                   => '',
             'languageselection'        => false,
             'languagedefault'          => '',
