@@ -38,8 +38,8 @@ class Configuration
         'main' => array(
             'name'                     => 'MyBin',
             'basepath'                 => '',
-            'discussion'               => true,
-            'opendiscussion'           => true,
+            'discussion'               => false,
+            'opendiscussion'           => false,
             'password'                 => true,
             'fileupload'               => true,
             'burnafterreadingselected' => false,
